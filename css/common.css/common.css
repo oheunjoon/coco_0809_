@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  > body {
+    font-family: "Pretendard-Regular";
+    overflow-x: hidden;
+  }
+}
+
+h1,
+p {
+  font-family: "Pretendard-Regular";
+}
+
+html {
+  scroll-behavior: smooth;
+}

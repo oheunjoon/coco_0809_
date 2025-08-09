@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>coco</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!-- 메인 JS연결 -->
+    <link rel="stylesheet" href="js/main.js" />
+
+    <!-- 공통 css연결 -->
+    <link rel="stylesheet" href="css/common.css/common.css" />
+
+    <!-- 메인 css연결 -->
+    <link rel="stylesheet" href="css/main/main.css" />
+  </head>
+  <body>
+    <!-- 모바일 화면에 맞게 디자인이 보여짐 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 제이쿼리 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- 테일윈드 css 불러오기 -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- 폰트어썸 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+
+    <!-- 구글폰트 -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 슬라이드 스와이퍼-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- 헤더 -->
+    <div id="header">
+      <div class="contents">
+        <div class="logo">
+          <a href="#"> <img src="assets/images/코코 로고.png" alt="로고" /></a>
+        </div>
+      </div>
+
+      <div class="category">
+        <div class="category-contents">
+          <ul>
+            <li><a href="#section2">미리보기</a></li>
+            <li><a href="#section3">예고편</a></li>
+            <li><a href="#section4">등장인물</a></li>
+            <li><a href="#swiper-section-1">자료실</a></li>
+            <li><a href="#section6">커뮤니티</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mobile-category">
+        <div class="mobile-category-contents">
+          <ul>
+            <li><a href="#section2">미리보기</a></li>
+            <li><a href="#section3">예고편</a></li>
+            <li><a href="#section4">등장인물</a></li>
+            <li><a href="#swiper-section-1">자료실</a></li>
+            <li><a href="#section6">커뮤니티</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 헤더끝	 -->
+    </div>
+
+    <div id="contents-img">
+      <div class="home">
+        <div class="home-cover">
+          <div class="home-cover-img">
+            <div class="main-logo">
+              <img src="assets/images/코코 로고.png" alt="메인로고" />
+              <p>한 번도 상상한 적 없는 세상으로 떠납니다.</p>
+              <p class="home-text"><겨울왕국>, <인사이드 아웃> 제작진</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 섹션2 -->
+    <section id="section2">
+      <div class="outline">
+        <div class="outlineText">
+          <p>영화 <span class="outlineP">줄거리</span></p>
+        </div>
+
+        <div class="outlineImg">
+          <img
+            src="https://p4.wallpaperbetter.com/wallpaper/886/457/187/coco-pixar-animation-hd-wallpaper-preview.jpg"
+            alt="줄거리이미지1"
+          />
+
+          <div class="outlineText2">
+            <p class="TitleText">
+              "영원히 기억하고 싶은
+              <span class="outlineP_2">황홀한 모험</span>이 시작된다!"
+            </p>
+            <p class="TitleText2">
+              뮤지션을 꿈꾸는 소년 미구엘은 전설적인 가수 에르네스토의 기타에
+              손을 댔다가 '죽은 자들의 세상'에 들어가게 된다.<br />
+              그리고 그곳에서 만난 의문의 사나이 헥터와 함께 상상조차 못했던
+              모험을 시작하게 되는데..<br />
+              과연 '죽은 자들의 세상'에 숨겨진 비밀은? 그리고 마구엘은 무사히
+              현실로 돌아올 수 있을까?
+            </p>
+            <div class="scroll-icon-wrap">
+              <div class="scroll-container">
+                <span class="scroll-arrow scroll-arrow-1">
+                  <i class="fa-solid fa-angle-down"></i>
+                </span>
+                <span class="scroll-arrow scroll-arrow-2">
+                  <i class="fa-solid fa-angle-down"></i>
+                </span>
+                <span class="scroll-text">
+                  <i class="icon fa-solid fa-computer-mouse"></i>
+                  <!-- 			<p>스크롤</p> -->
+                </span>
+
+                <span class="scroll-arrow scroll-arrow-1">
+                  <p>click</p>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 섹션3 -->
+    <section id="section3">
+      <div class="section_video">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/ehtulSZe6Ho?playlist=ehtulSZe6Ho&loop=1&autoplay=1&controls=0&mute=1&showinfo=0&rel=0&=modestbranding=1"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- 섹션4 -->
+    <section id="section4">
+      <div class="hero">
+        <p>등장인물</p>
+      </div>
+
+      <div class="hero-img">
+        <div class="img-box">
+          <img
+            src="https://mblogthumb-phinf.pstatic.net/MjAyMjA4MjFfMjk3/MDAxNjYxMDgyNzk4MjE3.bj7vJHDAzT3I0D6xXm9BVlwxqi-Yg3Q6gia_e1MKbnUg.Yhvcm_Rp-M6ideEBXLjySH-22oylstrOC0qmcK6M9lIg.JPEG.hrikim/SE-ce2d5cf4-9ebd-4dec-a7d0-bf7288fca77e.jpg?type=w800"
+            alt="인물1"
+          />
+          <p class="hero-text">"이 가족으로 태어난 게 싫어요!"</p>
+          <p class="hero-text2">미겔</p>
+        </div>
+        <div class="img-box">
+          <img
+            src="https://1.gall-img.com/hygall/files/attach/images/82/481/827/168/2af95bff9d7f16313921b90b44966834.png"
+            alt="인물1"
+          />
+          <p class="hero-text">"너에게 축복을 내린다"</p>
+          <p class="hero-text2">헥토르</p>
+        </div>
+        <div class="img-box">
+          <img
+            src="https://pbs.twimg.com/media/DxzCl9pUUAEdkf9.jpg"
+            alt="인물1"
+          />
+          <p class="hero-text">"자신의 운명을 거부할 수 없는 법"</p>
+          <p class="hero-text2">에르네스토 델라크루즈</p>
+        </div>
+        <div class="img-box">
+          <img
+            src="https://i.pinimg.com/474x/3d/18/8c/3d188c5752be4e01548d877a765f7619.jpg"
+            alt="인물1"
+          />
+          <p class="hero-text">"널 사랑한다는 걸 잊지 말거라"</p>
+          <p class="hero-text2">이멜다</p>
+        </div>
+        <div class="img-box">
+          <img
+            src="https://static.wikia.nocookie.net/coco-movie/images/d/dc/Elena_rivera_Profile.png"
+            alt="인물1"
+          />
+          <p class="hero-text">"음악은 안돼!"</p>
+          <p class="hero-text2">엘레나</p>
+        </div>
+        <div class="img-box">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIo9lxEYi8atI92IEQOo1DCNeqMQV6rM4NmtEZPf26Zyvt68Tgfg8CywAQP8jtSlfzVs4&usqp=CAU"
+            alt="인물1"
+          />
+          <p class="hero-text">"너한테 우리 아버지가 보이는구나"</p>
+          <p class="hero-text2">코코</p>
+        </div>
+        <div class="img-box">
+          <img
+            src="https://pbs.twimg.com/media/DTa1VZFVAAA99K3.jpg"
+            alt="인물1"
+          />
+          <p class="hero-text">미겔과 친한 떠돌이 개</p>
+          <p class="hero-text2">단테</p>
+        </div>
+        <div class="img-box">
+          <img
+            src="https://i.pinimg.com/736x/18/f7/b8/18f7b8bc0ba8d604d45383204df8b11f.jpg"
+            alt="인물1"
+          />
+          <p class="hero-text">고양이 알레브리헤</p>
+          <p class="hero-text2">페피타</p>
+        </div>
+        <div class="img-box">
+          <img
+            src="https://i.pinimg.com/736x/5b/cf/c2/5bcfc2e9a429698dc573e46364e12122.jpg"
+            alt="인물1"
+          />
+          <p class="hero-text">멕시코의 유명 화가</p>
+          <p class="hero-text2">프리다 칼로</p>
+        </div>
+        <div class="img-box">
+          <img
+            src="https://i.namu.wiki/i/am1QDdmdKmss3FAgwQVr3nsuEQQox1-ME4kXF5KPjvpoHmvMT3S9F6j7cg8OC10mLdbsvq_ijbW1iSlrFz3Kpg.webp"
+            alt="인물1"
+          />
+          <p class="hero-text">"옛날이 참 좋았는데.."</p>
+          <p class="hero-text2">치차론</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 섹션 5 -->
+    <section id="swiper-section-1">
+      <!-- 	스와이퍼 컨테이너 -->
+      <div class="swiper">
+        <!--  스와이퍼 슬라이드를 감싸는 wrapper-->
+        <div class="swiper-wrapper">
+          <!-- 	스와이퍼 슬라이드 아이템	 -->
+          <div class="swiper-slide slide-1">
+            <img
+              src="https://image.tmdb.org/t/p/original/pQu93NuwR90AaCULzglVD5Ge4Ml.jpg"
+              alt=""
+            />
+          </div>
+          <div class="swiper-slide slide-2">
+            <img
+              src="https://image.tmdb.org/t/p/original/n0JFnrKWbFj4ObhIAANKyq4GObe.jpg"
+              alt="포스터1"
+            />
+          </div>
+          <div class="swiper-slide slide-3">
+            <img
+              src="https://image.tmdb.org/t/p/original/q4Z7Eqa8TrxegjCJ4SwZ3f3zJep.jpg"
+              alt="포스터1"
+            />
+          </div>
+          <div class="swiper-slide slide-4">
+            <img
+              src="https://mblogthumb-phinf.pstatic.net/MjAxNzA4MDlfMTMg/MDAxNTAyMjM5MzM4OTA5.AkQJcE30oYVGVyrJ1c3fM1_MGWoaxBypGCoTy5prafMg.keDN05tem4Kxe6vReeZOiiihid6UeXeLQdS4XHKdUq8g.JPEG.fortune7530/Coco-Family-Poster-Pixar.jpg?type=w800"
+              alt="포스터1"
+            />
+          </div>
+          <div class="swiper-slide slide-5">
+            <img
+              src="https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2017/07/17/PBSjBADtYTAO636358846628290535.jpg"
+              alt="포스터1"
+            />
+          </div>
+          <div class="swiper-slide slide-6">
+            <img
+              src="https://i.pinimg.com/1200x/0d/0f/87/0d0f87b5632d671841ff681b8781b4de.jpg"
+              alt="포스터1"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-download">
+        <div class="download-text">
+          <p>
+            포스터 <br />
+            다운로드
+          </p>
+        </div>
+      </div>
+
+      <!-- 모바일 포스터 다운로드 -->
+      <div class="mobile-swiper-download">
+        <div class="mobile-download-text">
+          <p>
+            포스터 <br />
+            다운로드
+          </p>
+        </div>
+      </div>
+      <!-- 	스와이퍼 페이지네이션  -->
+      <div class="swiper-pagination"></div>
+
+      <!-- 스와이퍼 버튼	 -->
+      <div class="swiper-button swiper-button-prev"></div>
+      <div class="swiper-button swiper-button-next"></div>
+    </section>
+
+    <!-- 섹션 6-->
+    <section id="section6">
+      <div class="rating desktop-only">
+        <div class="rating_p">
+          <h1>관람객 평점</h1>
+          <p class="rating_score">9.45</p>
+          <p class="rating_score2">★★★★☆</p>
+
+          <div class="statistics">
+            <div class="statistics_img">
+              <img
+                src="https://image.fmkorea.com/files/attach/new/20191230/486616/1785477392/2549848629/47203370e8776ef98a226f5cdb44e6be.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="review">
+          <div class="review-text">
+            <h2>관람평</h2>
+            <p>추천순 | 최신순</p>
+          </div>
+
+          <div class="review-detail">
+            <div class="review-detail2">
+              <p>★★★★☆ 9</p>
+              <p>
+                먼저 떠난 우리 아들도 저렇게 멋진데서 잘 지내길.. 평생 기억할게
+                꼭 다시 만나자
+              </p>
+              <p>2025.01.12 | 트루다</p>
+              <div class="review-number">
+                <p>22,642</p>
+                <p class="heart">♥</p>
+              </div>
+            </div>
+
+            <div class="review-detail2">
+              <p>★★★★★ 10</p>
+              <p>
+                "따뜻해, 삶을 껴안고 다독이는 죽음" 박평식 평론가의 평점이
+                이렇게 공감된다니.. 2018년 최고의 애니메이션? 아니 이건 최고의
+                영화
+              </p>
+              <p>2018.01.12 | great</p>
+              <div class="review-number">
+                <p>5,564</p>
+                <p class="heart2">♡</p>
+              </div>
+            </div>
+
+            <div class="review-detail2">
+              <p>★★★★★ 10</p>
+              <p>
+                사람이 진정으로 죽는 순간은 사랑하는 사람에게 잊혀졌을 때..
+                사랑하는 사람들을 영원히 기억하고 나 또한 그 사람들에게 영원히
+                기억되길..
+              </p>
+              <p>2025.01.11 | thenstell</p>
+              <div class="review-number">
+                <p>5,105</p>
+                <p class="heart3">♥</p>
+              </div>
+            </div>
+
+            <div class="review-detail2">
+              <p>★★★★★ 10</p>
+              <p>
+                사람은 3번 죽는다. 숨이 멎는 순간 생물학 적으로 죽고, 장례식에
+                온 하객들이 떠나갈 때 사회적으로 죽고 그 사람을 기억하는 마지막
+                사람이 죽으면 그것이 진정한 죽음이라는 것을 코코를 보고 알게
+                되었다.
+              </p>
+              <p>2018.01.12 | cyn322</p>
+              <div class="review-number">
+                <p>4,507</p>
+                <p class="heart4">♥</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="user">
+            <div class="user-id">
+              <input type="text" class="id-2" placeholder="닉네임" />
+            </div>
+            <div class="user-id">
+              <input type="password" class="id-2" placeholder="비밀번호" />
+            </div>
+            <div class="user-select">
+              <p>평점을 선택해주세요.</p>
+              <p>★★★★★ 10</p>
+            </div>
+          </div>
+
+          <div class="user-review">
+            <input
+              type="text"
+              class="user-text"
+              placeholder="관람평을 자유롭게 입력해주세요."
+            />
+            <div class="text-2">등록</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 모바일 화면 -->
+    <section id="section-mobile" class="mobile-only">
+      <div class="mobile-rating">
+        <h1>관람객 평점</h1>
+        <p class="mobile-score">9.45</p>
+        <p class="mobile_score2">★★★★☆</p>
+      </div>
+
+      <div class="mobile-review">
+        <div class="mobile-text">
+          <h2>관람평</h2>
+          <p>추천순 | 최신순</p>
+        </div>
+
+        <div class="mobile-detail">
+          <div class="mobile-detail2">
+            <p>★★★★☆ 9</p>
+            <p>
+              먼저 떠난 우리 아들도 저렇게 멋진데서 잘 지내길.. 평생 기억할게 꼭
+              다시 만나자
+            </p>
+            <p>2025.01.12 | 트루다</p>
+            <div class="mobile-number">
+              <p>22,642</p>
+              <p class="heart">♥</p>
+            </div>
+          </div>
+
+          <div class="mobile-detail2">
+            <p>★★★★★ 10</p>
+            <p>
+              "따뜻해, 삶을 껴안고 다독이는 죽음" 박평식 평론가의 평점이 이렇게
+              공감된다니.. 2018년 최고의 애니메이션? 아니 이건 최고의 영화
+            </p>
+            <p>2018.01.12 | great</p>
+            <div class="mobile-number">
+              <p>5,564</p>
+              <p class="heart2">♡</p>
+            </div>
+          </div>
+
+          <div class="mobile-detail2">
+            <p>★★★★★ 10</p>
+            <p>
+              사람이 진정으로 죽는 순간은 사랑하는 사람에게 잊혀졌을 때..
+              사랑하는 사람들을 영원히 기억하고 나 또한 그 사람들에게 영원히
+              기억되길..
+            </p>
+            <p>2025.01.11 | thenstell</p>
+            <div class="mobile-number">
+              <p>5,105</p>
+              <p class="heart3">♥</p>
+            </div>
+          </div>
+
+          <div class="mobile-detail2">
+            <p>★★★★★ 10</p>
+            <p>
+              사람은 3번 죽는다. 숨이 멎는 순간 생물학 적으로 죽고, 장례식에 온
+              하객들이 떠나갈 때 사회적으로 죽고 그 사람을 기억하는 마지막
+              사람이 죽으면 그것이 진정한 죽음이라는 것을 코코를 보고 알게
+              되었다.
+            </p>
+            <p>2018.01.12 | cyn322</p>
+            <div class="mobile-number">
+              <p>4,507</p>
+              <p class="heart4">♥</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mobile-user">
+          <div class="mobile-id">
+            <input type="text" class="mobile-id2" placeholder="닉네임" />
+          </div>
+          <div class="mobile-id">
+            <input type="password" class="mobile-id2" placeholder="비밀번호" />
+          </div>
+          <div class="mobile-user-select">
+            <p>평점을 선택해주세요.</p>
+            <p>★★★★★ 10</p>
+          </div>
+        </div>
+
+        <div class="mobile-review-2">
+          <input
+            type="text"
+            class="mobile-user-text"
+            placeholder="관람평을 자유롭게 입력해주세요."
+          />
+        </div>
+        <div class="mobile-text2">등록</div>
+      </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer id="footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img
+            src="https://i.namu.wiki/i/LEuwfBb8mDlt8Zmw-YyaVjiYOsRE7PZ2p5J4oN25JjKdwf9bXhgUwzUfmtzHBecFRdz53QQN-8MSIJ-qQEaGnA.webp"
+            alt="로고"
+          />
+        </div>
+
+        <div class="footer-copy">
+          <p>2025 MyMovieSite. All rights reserved.</p>
+        </div>
+
+        <!--  TOP바	 -->
+        <div class="click">
+          <div class="click-img">
+            <a href="#contents-img"
+              ><img src="assets/images/코코 얼굴 수정.png" alt=""
+            /></a>
+            <i class="fa-solid fa-up-long"></i>
+            <p>TOP</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
